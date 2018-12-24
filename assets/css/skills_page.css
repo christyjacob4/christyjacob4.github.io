@@ -1,0 +1,169 @@
+
+.grid {
+    display: grid;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    grid-template-columns: repeat(6, 130px);
+    grid-template-rows: repeat(4, 130px);
+    justify-content: center;
+    /* grid-auto-rows: 150px; */
+    /* grid-auto-flow: row dense; */
+}
+
+.grid>.item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    grid-column-start: auto;
+    grid-row-start: auto;
+    /* padding: 30px; */
+    /* background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48Zz48cGF0aCBmaWxsPSIjRDI2MzgzIiBkPSJNMTE1LjQgMzAuN2wtNDguMy0yNy44Yy0uOC0uNS0xLjktLjctMy4xLS43LTEuMiAwLTIuMy4zLTMuMS43bC00OCAyNy45Yy0xLjcgMS0yLjkgMy41LTIuOSA1LjR2NTUuN2MwIDEuMS4yIDIuNCAxIDMuNWwxMDYuOC02MmMtLjYtMS4yLTEuNS0yLjEtMi40LTIuN3oiLz48cGF0aCBmaWxsPSIjOUMwMzNBIiBkPSJNMTAuNyA5NS4zYy41LjggMS4yIDEuNSAxLjkgMS45bDQ4LjIgMjcuOWMuOC41IDEuOS43IDMuMS43IDEuMiAwIDIuMy0uMyAzLjEtLjdsNDgtMjcuOWMxLjctMSAyLjktMy41IDIuOS01LjR2LTU1LjdjMC0uOS0uMS0xLjktLjYtMi44bC0xMDYuNiA2MnoiLz48cGF0aCBmaWxsPSIjZmZmIiBkPSJNODUuMyA3Ni4xYy00LjIgNy40LTEyLjIgMTIuNC0yMS4zIDEyLjQtMTMuNSAwLTI0LjUtMTEtMjQuNS0yNC41czExLTI0LjUgMjQuNS0yNC41YzkuMSAwIDE3LjEgNSAyMS4zIDEyLjVsMTMtNy41Yy02LjgtMTEuOS0xOS42LTIwLTM0LjMtMjAtMjEuOCAwLTM5LjUgMTcuNy0zOS41IDM5LjVzMTcuNyAzOS41IDM5LjUgMzkuNWMxNC42IDAgMjcuNC04IDM0LjItMTkuOGwtMTIuOS03LjZ6Ii8+PGcgZmlsbD0iI2ZmZiI+PHBhdGggZD0iTTgyLjEgNjEuOGg1LjJ2LTUuM2g0LjR2NS4zaDUuM3Y0LjRoLTUuM3Y1LjJoLTQuNHYtNS4yaC01LjJ2LTQuNHpNMTAwLjYgNjEuOGg1LjJ2LTUuM2g0LjR2NS4zaDUuM3Y0LjRoLTUuM3Y1LjJoLTQuNHYtNS4yaC01LjJ2LTQuNHoiLz48L2c+PC9nPjwvc3ZnPg=='); */
+    /* background: url("https://images.unsplash.com/photo-1470124182917-cc6e71b22ecc?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop="); */
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: -2px 2px 10px 0px rgba(68, 68, 68, 0.4);
+    transition: -webkit-transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    counter-increment: item-counter;
+}
+
+.grid > .item > .item_overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+
+.grid > .item:nth-child(1){
+    background: url('../img/Favorites/cplusplus-original.svg');
+}
+
+.grid > .item:nth-child(2){
+    background: url('../img/Favorites/c.svg');
+}
+
+.grid > .item:nth-child(3){
+    background: url('../img/Favorites/java-original.svg');
+}
+.grid > .item:nth-child(4){
+    background: url('../img/Favorites/javascript-original.svg');
+}
+.grid > .item:nth-child(5){
+    background: url('../img/Favorites/python-original.svg');
+}
+
+.grid > .item:nth-child(6){
+    background: url('../img/Favorites/php-original.svg');
+}
+
+.grid > .item:nth-child(7){
+    background: url('../img/Favorites/tensorflow-tf.svg');
+}
+
+.grid > .item:nth-child(8){
+    background: url('../img/Favorites/python-original.svg');
+}
+.grid > .item:nth-child(9){
+    background: url('../img/Favorites/android-original.svg');
+}
+
+.grid > .item:nth-child(10){
+    background: url('../img/Favorites/angularjs-original.svg');
+}
+.grid > .item:nth-child(11){
+    background: url('../img/Favorites/react-original.svg');
+}
+
+.grid > .item:nth-child(12){
+    background: url('../img/Favorites/html5-original.svg');
+}
+
+.grid > .item:nth-child(13){
+    background: url('../img/Favorites/css3-original.svg');
+}
+.grid > .item:nth-child(14){
+    background: url('../img/Favorites/bootstrap-plain.svg');
+}
+
+.grid > .item:nth-child(15){
+    background: url('../img/Favorites/mongodb-original.svg');
+}
+.grid > .item:nth-child(16){
+    background: url('../img/Favorites/mysql-original.svg');
+}
+
+.grid > .item:nth-child(17){
+    background: url('../img/Favorites/nodejs-original.svg');
+}
+
+.grid > .item:nth-child(18){
+    background: url('../img/Favorites/linux-original.svg');
+}
+.grid > .item:nth-child(19){
+    background: url('../img/Favorites/gitlab-original.svg');
+}
+.grid > .item:nth-child(20){
+    background: url('../img/Favorites/docker-original.svg');
+}
+.grid > .item:nth-child(21){
+    background: url('../img/Favorites/git-original.svg');
+}
+.grid > .item:nth-child(22){
+    background: url('../img/Favorites/numpy-logo.svg');
+}
+.grid > .item:nth-child(23){
+    background: url('../img/Favorites/raspberry.svg');
+}
+.grid > .item:nth-child(24){
+    background: url('../img/Favorites/arduino.svg');
+}
+
+
+
+/* .grid>.item:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+} */
+
+.grid>.item:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+
+.grid>.item>.item__details {
+    position: relative;
+    z-index: 1;
+    height: auto;
+    width: auto;
+    padding: 15px;
+    background: rgba(34, 25, 25, 0);
+    text-align: center;
+    color: white;
+    visibility: hidden;
+    /* transition: visibility 0.5s ease-in; */
+}
+
+.grid>.item:hover>.item__details {
+    visibility: visible;
+}
+.grid>.item:hover> .item_overlay{
+    background-color: rgba(0, 0, 0, 0.733);
+}
+
+/* 
+.grid > .item > .item__details:before {
+  content: counter(item-counter);
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding-right: 0.5em;
+  color: #444;
+} */

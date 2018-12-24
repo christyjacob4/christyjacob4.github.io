@@ -1,0 +1,21 @@
+{
+  "name": "global",
+  "version": "1.0.0",
+  "description": "My Portfolio webapp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "liteserver": "^0.3.0"
+  },
+  "engines": {
+    "node": "8.12.x"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "lite-server": "^2.4.0"
+  }
+}
