@@ -63,11 +63,11 @@
 }
 
 .grid > .item:nth-child(7){
-    background: url('../img/Favorites/tensorflow-tf.svg');
+    background: url('../img/Favorites/tensorflow.svg');
 }
 
 .grid > .item:nth-child(8){
-    background: url('../img/Favorites/python-original.svg');
+    background: url('../img/Favorites/keras.svg');
 }
 .grid > .item:nth-child(9){
     background: url('../img/Favorites/android-original.svg');

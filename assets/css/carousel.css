@@ -13,7 +13,7 @@
     position: relative;
 }
 
-.carousel-item {
+.carousel-item, .work-carousel-item {
   visibility:visible;
     display: flex;
     width: 100%;
@@ -110,25 +110,46 @@
 }
 
 .carousel-item--1 .carousel-item__image{
-  background-image: url('../img/visio.png');
+  background-image: url('../img/data_science.jpg');
 }
 
 
 .carousel-item--2 .carousel-item__image{
-    background-image: url('../img/visio.png');
+    background-image: url('../img/machine_learning.jpg');
 }
 
 .carousel-item--3 .carousel-item__image{
-    background-image: url('../img/visio.png');
+    background-image: url('../img/hackathon.jpg');
 }
 
 .carousel-item--4 .carousel-item__image{
-  background-image: url('https://images.pexels.com/photos/1008732/pexels-photo-1008732.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+  background-image: url('../img/coding.jpg');
 }
 
 .carousel-item--5 .carousel-item__image{
-  background-image: url('https://images.pexels.com/photos/1029614/pexels-photo-1029614.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-image: url('../img/tech_enthusiast.jpg');
 }
+
+.carousel-item--6 .carousel-item__image{
+  background-image: url('../img/photography.jpg');
+}
+
+.carousel-item--7 .carousel-item__image{
+  background-image: url('../img/guitar.jpg');
+}
+
+.carousel-item--8 .carousel-item__image{
+  background-image: url('../img/tv.jpg');
+}
+
+.carousel-item--9 .carousel-item__image{
+  background-image: url('../img/airplane.jpg');
+}
+
+.work-carousel-item .carousel-item__image{
+  background-image: url('../img/visio.png');
+}
+
 
 .carousel-item__btn {
     width: 35%;
