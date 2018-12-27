@@ -73,7 +73,7 @@
             // }), 7000);
         };
         p.initSetup = function () {
-            p.cnv = p.createCanvas(window.innerWidth, window.innerHeight)
+            p.cnv = p.createCanvas(window.innerWidth, window.innerHeight-6)
             p.cnv.id('kaleidoscope_canvas')
             p.cnv_container = p.createDiv("");
             p.cnv_container.position(0, 0);
