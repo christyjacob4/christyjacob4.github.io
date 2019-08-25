@@ -1,17 +1,931 @@
+<!-- use the following code to generate a single css file out of all the different css files -->
+<!-- purifycss assets/css/carousel.css assets/css/letters.css assets/css/timeline.css assets/css/fontawesome.css assets/css/global.css assets/css/skills_page.css assets/css/volunteering.css index.html --info --out assets/css/purified.css -->
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
 
-    <script>
-        window.location = "https://christyjacob4.gitlab.io/portfolio/"
-        
-    </script>
+<head>
+  <title>Christy Jacob</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- title bar icon -->
+  <link rel="shortcut icon" href="assets/img/logo.png" />
+
+  <link rel="stylesheet" href="assets/css/purified.css">
+
+
+  <script src="assets/js/modernizr.custom.js"></script>
+  <script src='assets/js/p5.js'></script>
+  <script src='assets/js/p5.dom.js'></script>
+
 </head>
-<body>
-    
+
+<body class="has-animations">
+
+  <!-- notification for small viewports and landscape oriented smartphones -->
+  <div class="device-notification">
+    <a class="device-notification--logo" href="#0">
+      <img src="assets/img/logo.png" alt="CJ">
+      <p>CJ</p>
+    </a>
+    <!-- <p class="device-notification--message">Global has so much to offer that we must request you orient your device to
+      portrait or find a larger screen. You won't be disappointed.</p> -->
+  </div>
+
+  <div class="preloader">
+    <div class="frame">
+      <div class="center">
+        <div class="ball"></div>
+        <div class="blubb-1"></div>
+        <div class="blubb-2"></div>
+        <div class="blubb-3"></div>
+        <div class="blubb-4"></div>
+                  <!-- <div class="blubb-5"></div>
+          <div class="blubb-6"></div>
+          <div class="blubb-7"></div>
+          <div class="blubb-8"></div> -->
+        <div class="sparkle-1"></div>
+        <div class="sparkle-2"></div>
+        <div class="sparkle-3"></div>
+        <div class="sparkle-4"></div>
+        <div class="sparkle-5"></div>
+        <!--           <div class="sparkle-6"></div>
+          <div class="sparkle-7"></div>
+          <div class="sparkle-8"></div>
+          <div class="sparkle-9"></div> -->
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="perspective effect-rotate-left">
+    <div class="container">
+      <div class="outer-nav--return"></div>
+      <div id="viewport" class="l-viewport">
+        <div class="l-wrapper">
+          <header class="header">
+            <a class="header--logo" href="#0">
+              <img src="assets/img/logo.png" alt="CJ">
+              <p>CJ</p>
+            </a>
+            <!-- <button class="header--cta cta">Hire Us</button> -->
+            <div class="header--nav-toggle">
+              <span></span>
+            </div>
+          </header>
+
+
+          <!-- Navigation Bar -->
+          <nav class="l-side-nav">
+            <ul class="side-nav">
+              <li class="is-active"><span>Home</span></li>
+              <li><span>About Me</span></li>
+              <li><span>Education</span></li>
+              <li><span>Languages</span></li>
+              <li><span>Projects</span></li>
+              <li><span>Experience</span></li>
+              <li><span>Volunteering</span></li>
+              <li><span>Contact</span></li>
+            </ul>
+          </nav>
+
+
+          <!-- The pages start here -->
+          <ul class="l-main-content main-content">
+
+            <!-- Page 1 -->
+            <li class="l-section section section--is-active">
+              <div class="intro">
+                <div class="intro--banner">
+                  <div class="center">
+                    <h1 id="word">
+                      <span class="letter">{</span>
+                      <span class="letter">}</span>
+                      <span class="letter">,</span>
+                      <span class="letter">"</span>
+                      </br>
+                      <span class="letter">$</span>
+                      <span class="letter">!</span>
+                      <span class="letter">#</span>
+                      <span class="letter">2</span>
+                      <span>&nbsp;</span>
+                      <span class="letter">^</span>
+                      <span class="letter">&</span>
+                      <span class="letter">&</span>
+                      </br>
+                      <span class="letter">*</span>
+                      <span class="letter">8</span>
+                      <span class="letter">(</span>
+                      <span class="letter">0</span>
+                      <span class="letter">j</span>
+                      <span class="letter">a</span>
+                      <span class="letter">d</span>
+                    </h1>
+                    <div id="test"></div>
+                  </div>
+                  <button class="cta">About Me
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                      x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                      <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                        <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z" />
+                      </g>
+                    </svg>
+                    <span class="btn-background"></span>
+                  </button>
+                  <img src="assets/img/introduction-visual.png" alt="Welcome">
+                </div>
+                <div class="intro--options">
+                  <a href="#0">
+                    <h2>Developer</h2>
+                    <p>I love building cool stuff with the Raspberry Pi & Arduino, building Web & Android apps, REST
+                      APIs, IOT and more!! </p>
+                  </a>
+                  <a href="#0">
+                    <h2>Learner</h2>
+                    <p>I'm constantly in serarch of articles to read & skills to learn. Be it the guitar or circuit design or rendering 3d models in blender I'm up for it.
+                      You can find me reading through Medium, KDNuggets, XDA Developers.
+                    </p>
+                  </a>
+                  <a href="#0">
+                    <h2>Guitar & Coffee</h2>
+                    <p>Coffee and Music are my best friends when it comes to fixing an annoying bug or meeting
+                      deadlines!</p>
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <!-- Page 2 -->
+            <li class="l-section section">
+              <div class="about">
+                <!-- <div class="container"> -->
+                <!-- <header class="clearfix"> -->
+                <!-- <span>Work </span> -->
+                <h1>About Me</h1>
+                <!-- </header> -->
+                <div class="carousel">
+                  <div class="carousel__nav">
+                    <span id="moveLeft" class="carousel__arrow">
+                      <svg class="carousel__icon" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>
+                      </svg>
+                    </span>
+                    <span id="moveRight" class="carousel__arrow">
+                      <svg class="carousel__icon" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
+                      </svg>
+                    </span>
+                  </div>
+                  <div class="carousel-item carousel-item--1">
+                    <div class="carousel-item__image"></div>
+                    <div class="carousel-item__info">
+                      <div class="carousel-item__container">
+                        <h1 class="carousel-item__title">Data Science</h1>
+                        <p class="carousel-item__description">I love data science and its applications in the industry.
+                          I always participate in
+                          contests hosted on kaggle and give my shot at real world problems.
+                        </p>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item carousel-item--2">
+                    <div class="carousel-item__image"></div>
+                    <div class="carousel-item__info">
+                      <div class="carousel-item__container">
+                        <h1 class="carousel-item__title">Deep Learning</h1>
+                        <p class="carousel-item__description"> Deep Learning has always interested me because of its
+                          numerous amazing applications.
+                          Difficult tasks like image recognition have been greatly simplified with the availabilty of
+                          more data and cheaper hardware and cloud services.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  
+
+                  <div class="carousel-item carousel-item--3">
+                    <div class="carousel-item__image"></div>
+                    <div class="carousel-item__info">
+                      <div class="carousel-item__container">
+                        <h1 class="carousel-item__title">Hackathons</h1>
+                        <p class="carousel-item__description">Who doesn't like to spend 24 hours with like minded
+                          people and code away.
+                          And don't forget the pizza and all the free food.
+                        </p>
+
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item carousel-item--4">
+                    <div class="carousel-item__image"></div>
+                    <div class="carousel-item__info">
+                      <div class="carousel-item__container">
+                        <h1 class="carousel-item__title">Competitive Coding</h1>
+                        <p class="carousel-item__description">I love to code, and actively participate in coding
+                          competitions hosted on Codechef, Codeforces and HackerEarth.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item carousel-item--5">
+                    <div class="carousel-item__image"></div>
+                    <div class="carousel-item__info">
+                      <div class="carousel-item__container">
+                        <h1 class="carousel-item__title">Tech Enthusiast</h1>
+                        <p class="carousel-item__description">I love gadgets and keep myself updated on the latest and
+                          greatest trends in tech. I follow events like CES (Consumer Electronics Show), MWC (Mobile
+                          World Congress) without fail.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item carousel-item--6">
+                    <div class="carousel-item__image"></div>
+                    <div class="carousel-item__info">
+                      <div class="carousel-item__container">
+                        <h1 class="carousel-item__title">Computer Vision</h1>
+                        <p class="carousel-item__description">
+                            I find the problems in the computer vision domain really interesting. Problems like handwritten character recognition, Scene Generation,
+                            Image Captioning are extremely intersting to work on and thats what keeps me interested. 
+                        </p>
+
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item carousel-item--7">
+                    <div class="carousel-item__image"></div>
+                    <div class="carousel-item__info">
+                      <div class="carousel-item__container">
+                        <h1 class="carousel-item__title">Guitarist</h1>
+                        <p class="carousel-item__description">I'm a self taught guitarist and love playing the guitar
+                          in between coding sessions. It really
+                          helps me focus and relax.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="carousel-item carousel-item--8">
+                    <div class="carousel-item__image"></div>
+                    <div class="carousel-item__info">
+                      <div class="carousel-item__container">
+                        <h1 class="carousel-item__title">Movies & TV</h1>
+                        <p class="carousel-item__description">I'm a big fan of TV shows. So much that I have
+                          binge-watched an entire TV series for 24-hours! #NOSLEEP </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item carousel-item--9">
+                    <div class="carousel-item__image"></div>
+                    <div class="carousel-item__info">
+                      <div class="carousel-item__container">
+                        <h1 class="carousel-item__title">Airplanes</h1>
+                        <p class="carousel-item__description">It's been my childhood dream to fly an airplane and one
+                          day I plan on getting my flying
+                          licence</p>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </li>
+
+
+
+            <!-- Page 3 -->
+            <li class="l-section section">
+              <div class="work">
+                <h2>Education</h2>
+                <div class="work--lockup">
+                  <ul class="slider">
+                    <li class="slider--item slider--item-left">
+                      <a href="#0">
+                        <div class="slider--item-image">
+                          <img src="assets/img/aecs.png" alt="Victory">
+                        </div>
+                        <p class="slider--item-title"><strong>AECS Magnolia</strong></p>
+                        <p class="slider--item-description"><strong>Year : </strong>2014 - 2016</br> CBSE 12<sup>th</sup>
+                          Grade </br> <strong>Percentage</strong> : 95.4</p>
+                      </a>
+                    </li>
+                    <li class="slider--item slider--item-center">
+                      <a href="#0">
+                        <div class="slider--item-image">
+                          <img src="assets/img/pes.jpg" alt="Metiew and Smith">
+                        </div>
+                        <p class="slider--item-title">PES University</p>
+                        <p class="slider--item-description"><strong>Year : </strong>2016 - Present</br> B.Tech CSE </br><strong>CGPA</strong>
+                          : 9.95</p>
+                      </a>
+                    </li>
+                    <li class="slider--item slider--item-right">
+                      <a href="#0">
+                        <div class="slider--item-image">
+                          <img src="assets/img/indian_school.png" alt="Alex Nowak">
+                        </div>
+                        <p class="slider--item-title">Indian School RAK</p>
+                        <p class="slider--item-description"><strong>Year : </strong>2012 - 2014</br> CBSE 10<sup>th</sup>
+                          Grade </br><strong>CGPA</strong> : 10.0</p>
+                      </a>
+                    </li>
+                  </ul>
+                  <div class="slider--prev">
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                      x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                      <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                        <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
+                      c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
+                      c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z" />
+                      </g>
+                    </svg>
+                  </div>
+                  <div class="slider--next">
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                      x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                      <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                        <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z" />
+                      </g>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+
+
+            <!-- Page 4 -->
+            <li class="l-section section">
+              <div class="work">
+                <h2>Languages & Frameworks</h2>
+                <div class="work--lockup">
+                  <div class="grid">
+                    <div class="item">
+                      <div class="item_overlay">
+                      </div>
+                      <div class="item__details">
+                        C++
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="item_overlay">
+                      </div>
+                      <div class="item__details">
+                        C
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="item_overlay">
+                      </div>
+                      <div class="item__details">
+                        Java
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="item_overlay">
+                      </div>
+                      <div class="item__details">
+                        Javascript
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="item_overlay">
+                      </div>
+                      <div class="item__details">
+                        Python
+                      </div>
+                    </div>
+
+                    <div class="item">
+                      <div class="item_overlay">
+                      </div>
+                      <div class="item__details">
+                        Php
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="item_overlay">
+                      </div>
+                      <div class="item__details">
+                        Tensorflow
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="item_overlay">
+                      </div>
+                      <div class="item__details">
+                        Keras
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="item_overlay">
+                      </div>
+                      <div class="item__details">
+                        Android
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="item_overlay">
+                      </div>
+                      <div class="item__details">
+                        Angular Js
+                      </div>
+                    </div>
+
+
+                    <div class="item">
+                      <div class="item_overlay">
+                      </div>
+                      <div class="item__details">
+                        React Js
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="item_overlay">
+                      </div>
+                      <div class="item__details">
+                        HTML
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="item_overlay">
+                      </div>
+                      <div class="item__details">
+                        CSS
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="item_overlay">
+                      </div>
+                      <div class="item__details">
+                        Bootstrap
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="item_overlay">
+                      </div>
+                      <div class="item__details">
+                        MongoDB
+                      </div>
+                    </div>
+
+                    <div class="item">
+                      <div class="item_overlay">
+                      </div>
+                      <div class="item__details">
+                        MySQL
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="item_overlay">
+                      </div>
+                      <div class="item__details">
+                        Node Js
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="item_overlay">
+                      </div>
+                      <div class="item__details">
+                        Firebase
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="item_overlay">
+                      </div>
+                      <div class="item__details">
+                        Gitlab
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="item_overlay">
+                      </div>
+                      <div class="item__details">
+                        Docker
+                      </div>
+                    </div>
+
+                    <div class="item">
+                      <div class="item_overlay">
+                      </div>
+                      <div class="item__details">
+                        Git
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="item_overlay">
+                      </div>
+                      <div class="item__details">
+                        Numpy
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="item_overlay">
+                      </div>
+                      <div class="item__details">
+                        Raspberry Pi
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="item_overlay">
+                      </div>
+                      <div class="item__details">
+                        Arduino
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </li>
+
+            <!-- Page 5 -->
+            <li class="l-section section">
+              <div class="work">
+                <div class="container">
+                  <header class="clearfix">
+                    <span>Timeline </span>
+                    <h1>Projects</h1>
+                  </header>
+                  <div class="main">
+                    <ul class="cbp_tmtimeline">
+
+
+                      <li>
+                        <time class="cbp_tmtime" datetime="2013-04-10 18:30"><span>2018</span></time>
+                        <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                        <div id="cbp_yearmarker" class="cbp_tmlabel">
+                        </div>
+                      </li>
+
+                      <li>
+                        <time class="cbp_tmtime" datetime="2013-04-17 12:11"><span>December</span><span>12/18</span></time>
+                        <div class="cbp_tmicon cbp_tmicon-screen"></div>
+                        <div class="cbp_tmlabel">
+                          <h2>PrimeBee<i class="fab fa-github"></i> </h2>
+                          <p>Built a smart assistant for Rakathon 2018 held at Bangalore. Rakathon is the annual
+                            hackathon conducted by Rakuten.</p>
+                        </div>
+                      </li>
+
+                      <li>
+                        <time class="cbp_tmtime" datetime="2013-04-17 12:11"><span>August</span><span>08/18</span></time>
+                        <div class="cbp_tmicon cbp_tmicon-screen"></div>
+                        <div class="cbp_tmlabel">
+                          <h2>Multi-Lingual Offline Digit Recognizer <i class="fab fa-github"></i> </h2>
+                          <p>Currently working on a research project to perform speech recognition offline. The system
+                            is designed to help
+                            users (especially blind) dial phone numbers spoken in multiple languages</p>
+                        </div>
+                      </li>
+
+                      <li>
+                        <time class="cbp_tmtime" datetime="2013-04-16 21:30"><span>June</span><span>06/18</span></time>
+                        <div class="cbp_tmicon cbp_tmicon-earth"></div>
+                        <div class="cbp_tmlabel">
+                          <h2>Driver Drowsiness Detection <i class="fab fa-github"></i> </h2>
+                          <p>Designed a plug and play module using Raspberry Pi, to prevent road accidents by
+                            monitoring the driver’s face
+                            & eyes and alerting him/her if they appear to be sleepy. The aim was to bring functionality
+                            found in expensive
+                            cars to any vehicle.</p>
+                        </div>
+                      </li>
+
+                      <li>
+                        <time class="cbp_tmtime" datetime="2013-04-10 18:30"><span>March</span><span>03/18</span></time>
+                        <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                        <div class="cbp_tmlabel">
+                          <h2>E-commerce Website <i class="fab fa-github"></i> </h2>
+                          <p>Built a fully functional E-commerce website as part of Database Management Systems Course
+                            using the SEAN(SQL
+                            Express AngularJS NodeJs) stack. The project involved making ER Diagrams to represent the
+                            different entities and
+                            their relationships and finally implementing them in SQL. A REST API was built using
+                            Express Framework to
+                            perform all the CRUD operations.</p>
+                        </div>
+                      </li>
+
+
+
+
+
+                      <li>
+                        <time class="cbp_tmtime" datetime="2013-04-10 18:30"><span>2017</span></time>
+                        <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                        <div id="cbp_yearmarker" class="cbp_tmlabel">
+                        </div>
+                      </li>
+
+                      <li>
+                        <time class="cbp_tmtime" datetime="2013-04-10 18:30"><span>November</span><span>11/17</span></time>
+                        <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                        <div class="cbp_tmlabel">
+                          <h2>Askuspal <i class="fab fa-github"></i> </h2>
+                          <p>Lead a team, The Statesmen, to the finals of Finnovatica 2018, a FinTech Hackathon, where
+                            we built an interest
+                            free credit system for college students. Askuspal is an all-in-one assistant app that
+                            utilises the commissions
+                            the user generates to pay off the user's interest.</p>
+                        </div>
+                      </li>
+
+                      <li>
+                        <time class="cbp_tmtime" datetime="2013-04-10 18:30"><span>September</span><span>09/17</span></time>
+                        <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                        <div class="cbp_tmlabel">
+                          <h2>Gramophone <i class="fab fa-github"></i> </h2>
+                          <p>A music streaming website built as part of Web Technologies Course Project. This was my
+                            entry point into web
+                            technologies and was built from scratch using plain JavaScript, PHP, HTML and CSS.</p>
+                        </div>
+                      </li>
+
+
+
+                      <li>
+                        <time class="cbp_tmtime" datetime="2013-04-10 18:30"><span>July</span><span>07/17</span></time>
+                        <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                        <div class="cbp_tmlabel">
+                          <h2>Number Plate Recognition System <i class="fab fa-github"></i></h2>
+                          <p>Developed a surveillance system that performs real time number plate detection and
+                            recognition from CCTV
+                            footage. The system was designed to work with Indian Number plates which have a huge
+                            variability in fonts,
+                            dimensions, position etc.</p>
+                        </div>
+                      </li>
+
+
+
+                      <li>
+                        <time class="cbp_tmtime" datetime="2013-04-15 13:15"><span>January</span><span>01/17</span></time>
+                        <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                        <div class="cbp_tmlabel">
+                          <h2>Gesture Remote <i class="fab fa-github"></i> </h2>
+                          <p>Developed a Python App that converts hand gestures to IR signals which can then be used to
+                            control any IR
+                            based device.</p>
+                        </div>
+                      </li>
+
+
+                      <li>
+                        <time class="cbp_tmtime" datetime="2013-04-10 18:30"><span>2016</span></time>
+                        <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                        <div id="cbp_yearmarker" class="cbp_tmlabel">
+                        </div>
+                      </li>
+
+
+                      <li>
+                        <time class="cbp_tmtime" datetime="2013-04-11T12:04"><span>September</span> <span>09/16</span></time>
+                        <div class="cbp_tmicon cbp_tmicon-screen"></div>
+                        <div class="cbp_tmlabel">
+                          <h2>Signature Verification <i class="fab fa-github"></i></h2>
+                          <p>Developed a Python app to curb down forgery by classifying a signature as
+                            forged or genuine. Extracted features from a scanned signature by various Image Processing
+                            Methods & calculated
+                            a similarity score for a given signature.</p>
+                        </div>
+                      </li>
+                      <li>
+                        <time class="cbp_tmtime" datetime="2013-04-13 05:36"><span>September</span> <span>09/16</span></time>
+                        <div class="cbp_tmicon cbp_tmicon-mail"></div>
+                        <div class="cbp_tmlabel">
+                          <h2>Fruit Harvester <i class="fab fa-github"></i> </h2>
+                          <p>Led a team to build a robot that harvests fruits based on their colour as part of the
+                            final project of JED-i.
+                            The robot was to decide which fruits were ripe and which weren't and pluck only those that
+                            were ripe.</p>
+                        </div>
+                      </li>
+
+                    </ul>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+
+
+            <!-- Page 6 -->
+            <li class="l-section section">
+              <div class="about">
+                <!-- <div class="container"> -->
+                <!-- <header class="clearfix"> -->
+                <span>Work </span>
+                <h1>Experience</h1>
+                <!-- </header> -->
+                <div class="carousel">
+                  <div class="carousel__nav">
+                    <span id="workMoveLeft" class="carousel__arrow">
+                      <svg class="carousel__icon" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>
+                      </svg>
+                    </span>
+                    <span id="workMoveRight" class="carousel__arrow">
+                      <svg class="carousel__icon" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
+                      </svg>
+                    </span>
+                  </div>
+                  <div class="work-carousel-item carousel-item--1">
+                    <div class="carousel-item__image"></div>
+                    <div class="carousel-item__info">
+                      <div class="carousel-item__container">
+                        <h1 class="carousel-item__title">VISIO.AI</h1>
+                        <a href="#" class="carousel-item__btn">Android & ML Developer</a>
+                        <h2 class="carousel-item__subtitle">January 2018 - August 2018</h2>
+                        <p class="carousel-item__description">Developed an end to end solution for Driver Drowsiness
+                          Detection using a
+                          CNN and facial landmarks.Worked on data collection, preprocessing, training and tuning
+                          hyperparameters
+                          for the model.</p>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="work-carousel-item carousel-item--2">
+                    <div class="carousel-item__image"></div>
+                    <div class="carousel-item__info">
+                      <div class="carousel-item__container">
+                        <h1 class="carousel-item__title">VISIO.AI</h1>
+                        <a href="#" class="carousel-item__btn">Research Intern</a>
+                        <h2 class="carousel-item__subtitle">July 2017 - May 2018</h2>
+                        <p class="carousel-item__description">Worked on the development team of a new system for
+                          Automatic Number Plate
+                          Recognition. Designed and trained CNNs and ANNs for feature extraction and prediction of
+                          Number Plate characters.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- <div class="carousel-item carousel-item--3">
+                                    <div class="carousel-item__image"></div>
+                                    <div class="carousel-item__info">
+                                      <div class="carousel-item__container">
+                                        <h1 class="carousel-item__title">VISIO.AI</h1>
+                                        <a href="#" class="carousel-item__btn">Research Intern</a>
+                                        <h2 class="carousel-item__subtitle">July 2017 - May 2018</h2>
+                                        <p class="carousel-item__description">Worked on the development of a new system for Automatic Number Plate
+                                          Recognition. Designed and trained CNNs and ANNs forfeature extraction and prediction of
+                                            plate characters.</p>
+                                        
+                                      </div>
+                                    </div>
+                                  </div>
+            
+                              <div class="carousel-item carousel-item--4">
+                                <div class="carousel-item__image"></div>
+                                <div class="carousel-item__info">
+                                  <div class="carousel-item__container">
+                                    <h2 class="carousel-item__subtitle">Beach </h2>
+                                    <h1 class="carousel-item__title">The beach </h1>
+                                    <p class="carousel-item__description">Sed ut perspiciatis unde omnis iste natus error sit
+                                      voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                                    <a href="#" class="carousel-item__btn">Explore the beach</a>
+                                  </div>
+                                </div>
+                              </div>
+            
+                              <div class="carousel-item carousel-item--5">
+                                <div class="carousel-item__image"></div>
+                                <div class="carousel-item__info">
+                                  <div class="carousel-item__container">
+                                    <h2 class="carousel-item__subtitle">The white building </h2>
+                                    <h1 class="carousel-item__title">White building</h1>
+                                    <p class="carousel-item__description">Sed ut perspiciatis unde omnis iste natus error sit
+                                      voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                                    <a href="#" class="carousel-item__btn">Read the article</a>
+                                  </div>
+                                </div>
+                              </div> -->
+
+                </div>
+                <!-- </div> -->
+              </div>
+            </li>
+
+
+
+
+            <!-- Page 7 -->
+            <li class="l-section section">
+              <div class="hire">
+                <!-- <span>Work </span> -->
+                <h1>Volunteering</h1>
+                <div class="grid">
+                  <div class="item">
+                    <div class="item_overlay">
+                    </div>
+                    <div class="item__details">
+                      Organised Bomb Tag (An All India Bot Building and Race competition
+                      for school students) at The Amateur Scientist (TAS ’17).
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="item_overlay">
+                    </div>
+                    <div class="item__details">
+                      Helped organize Science Showdown (An inter college Science Exhibition at Epsilon ’17 ).
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="item_overlay">
+                    </div>
+                    <div class="item__details">
+                      Helped organise Codewars (the premier competitive coding competition at The
+                      Amateur Scientist 2016 ) along with my fellow team members, which saw the participation
+                      of
+                      over 350 teams.
+                    </div>
+                  </div>
+                  <!-- <div class="item">
+                      <div class="item_overlay">
+                      </div>
+                      <div class="item__details">
+                        Javascript
+                      </div>
+                    </div> -->
+
+                </div>
+              </div>
+            </li>
+
+
+
+
+
+            <!-- Page 8 -->
+
+            <li class="l-section section">
+              <div class="contact">
+                <div class="contact--lockup">
+                  <!-- <header class="clearfix">
+                    <span>Contact </span>
+                    <h1>Details</h1>
+                  </header> -->
+                  <h1>Contact Details</h1>
+                  <div class="modal">
+                    <div class="modal--information">
+                      <p>Bengaluru, Karnataka</p>
+                      <a href="mailto:christyjacob4@gmail.com">christyjacob4@gmail.com</a>
+                      <a href="tel:+148126287560">+91 96116 81613</a>
+                    </div>
+                    <ul class="modal--options">
+                      <li><a href="https://www.linkedin.com/in/christyjacob4/">LinkedIn <i class="fab fa-linkedin"></i> </a></li>
+                      <li><a href="https://github.com/christyjacob4">Github <i class="fab fa-github"></i></a></li>
+                      <li><a href="./assets/files/resume.pdf">Resume <i class="fas fa-file"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+
+
+            <!-- Put more pages here -->
+          </ul>
+
+
+
+        </div>
+      </div>
+    </div>
+    <ul class="outer-nav">
+      <li class="is-active">Home</li>
+      <li>About Me</li>
+      <li>Education</li>
+      <li>Langauges</li>
+      <li>Projects</li>
+      <li>Experience</li>
+      <li>Volunteering</li>
+      <li>Contact</li>
+    </ul>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script>
+    window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')
+  </script>
+  <!-- JS for the animated letters in the home page -->
+  <script src="assets/js/letters.js"></script>
+  <!-- JS for the work exepreience & About Me Page -->
+  <script src="assets/js/carousel.js"></script>
+  <!-- JS for the functions related to page navigation, scrolling down etc -->
+  <script src="assets/js/functions.js"></script>
+  <!-- JS for the animated kaleidoscope functions -->
+  <script src="assets/js/kaleidoscope.js"></script>
+
 </body>
+
 </html>
