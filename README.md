@@ -3,9 +3,9 @@
     <img alt="Project Logo" src="demo-images/resume.svg" target="_blank" width = 120 height = 120 />
 </p>
 <p align="center">
-  <a href="https://github.com/christyjacob4/christyjacob4.github.io/blob/master/LICENSE">
-    <img alt="License: MIT" src="https://img.shields.io/badge/version-1.0-success?style=for-the-badge&logo=coderwall" target="_blank" />
-  </a>
+  <img alt="Latest Commit" src="https://img.shields.io/github/last-commit/christyjacob4/christyjacob4.github.io?style=for-the-badge&logo=git" target="_blank" />
+
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0-success?style=for-the-badge&logo=coderwall" target="_blank" />
   <a href="https://github.com/christyjacob4/christyjacob4.github.io/blob/master/LICENSE">
     <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-success.svg?style=for-the-badge&logo=gitter" target="_blank" />
   </a>
